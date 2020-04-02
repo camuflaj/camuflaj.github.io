@@ -1,4 +1,5 @@
-html, body {width: auto!important; overflow-x: hidden!important} 
+html, body {width: auto!important; overflow-x: hidden!important; } 
+
 
 * {
     margin: 0;
@@ -92,7 +93,7 @@ section h2{
     justify-content: center;
     align-items: center;
     margin: 10px;
-    overflow-y: hidden;
+    overflow: hidden;
     padding-bottom: 40px;
 }
 
@@ -100,7 +101,7 @@ section h2{
     transform: scale(1.002);
     transition: ease-out 1s;
     font-size: 1.05em;
-    overflow-y: hidden;
+    overflow: hidden;
 }
 
 h3{
@@ -192,3 +193,18 @@ h1{
 /* img {
     image-orientation: from-image;
 } */
+
+.products a{
+    padding: 0.5vw;
+}
+
+.contactDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90vw;
+}
