@@ -1,0 +1,3 @@
+set placute ID aurii cu silencer 20 lei
+set placute ID negre cu silencer 20 lei
+set placute ID silver fara silencer 15 lei
