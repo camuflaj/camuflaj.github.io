@@ -171,7 +171,7 @@ h1{
 
 .text-descriere{
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -179,11 +179,15 @@ h1{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 80%;
 }
 
 .descriere-produs{
     font-size: 18px;
     font-style: oblique;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .titluprodus{
